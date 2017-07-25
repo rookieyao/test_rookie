@@ -1,0 +1,9 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import 'bootstrap-sass-official/assets/stylesheets/_bootstrap.scss';
+// endbower
+@import "../../node_modules/metronic/sass/layouts/layout/layout";
+@import "../../node_modules/metronic/sass/global/_plugins.scss";
+
+@import url("/node_modules/webcommon/dist/css/webcommon.css");
+@import url("/node_modules/webcommon/dist/css/import.css");

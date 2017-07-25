@@ -1,0 +1,27 @@
+[
+  {
+    "name": "cn.cywz.nav.home",
+    "href": ".main",
+    "active": true,
+    "selected": true,
+    "isHomePage": true,
+    "icon": "icon-home"
+  },
+  {
+    "name": "cn.cywz.nav.table",
+    "href": ".grid",
+    "active": false,
+    "selected": false,
+    "isHomePage": false,
+    "icon": "icon-grid"
+  },
+  {
+    "name": "cn.cywz.nav.test",
+    "href": ".test",
+    "active": false,
+    "selected": false,
+    "isHomePage": false,
+    "icon": "icon-social-dribbble"
+  }
+
+]

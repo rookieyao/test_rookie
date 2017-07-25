@@ -1,0 +1,17 @@
+<div ui-view="header"></div>
+<div class="clearfix"> </div>
+<div class="page-container">
+  <div>
+    <div ui-view="left" class="page-sidebar-wrapper"></div>
+    <div class="page-content-wrapper">
+      <div class="page-content">
+        <div class = "page-bar">
+          <div sxy-breadcrumbs-navigation></div>
+        </div>
+        <div ui-view class="fade-in-up"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div ui-view="footer" class="page-footer"></div>

@@ -1,0 +1,30 @@
+<!doctype html>
+<html class="no-js">
+<head>
+  <meta charset="utf-8">
+  <title>p_rookie</title>
+  <meta name="description" content="">
+
+  <!-- build:css(.tmp) styles/main.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
+</head>
+<body ng-controller="IndexController">
+
+<div sxy-spinner-bar class="page-spinner-bar">
+  <div class="bounce1"></div>
+  <div class="bounce2"></div>
+  <div class="bounce3"></div>
+</div>
+<div ui-view=""></div>
+
+<!-- build:js(.) scripts/oldieshim.js -->
+<!--[if lt IE 9]>
+<script src="bower_components/es5-shim/es5-shim.js"></script>
+<script src="bower_components/json3/lib/json3.js"></script>
+<![endif]-->
+<!-- endbuild -->
+<script src="/scripts/paths.js"></script>
+<script src="bower_components/requirejs/require.js" data-main="/scripts/build.js"></script>
+</body>
+</html>

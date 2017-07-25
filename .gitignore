@@ -1,0 +1,14 @@
+.git/
+.idea
+.idea/
+.idea/**
+coverage
+bower_components/
+node_modules/
+/dist/
+.sass-cache/
+.tmp/
+/metronic/**
+npm-debug.log
+/google_font/**
+/ui-grid/**

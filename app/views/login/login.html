@@ -1,0 +1,39 @@
+<link href="../../node_modules/metronic/assets/pages/css/login-2.min.css" rel="stylesheet" type="text/css" />
+<style>
+    body {
+        background-color: #5c97bd !important;
+    }
+    .login-rember-me {
+        position: static !important;
+        border: 0 !important;
+    }
+</style>
+<div ng-show="showLogin" ng-hide="!showLogin">
+    <div class="logo">
+        <h1 style="color: white">WebCommon</h1>
+    </div>
+    <div class="content">
+        <sxy-form op="loginFormOp">
+            <div class="form-actions">
+                <button class="btn red btn-block uppercase" ng-click="doLogin()" sxy-shortcut="enter"><sxy-i18n i18n-key = "cn.cywz.login.loginBtn"></sxy-i18n></button>
+            </div>
+            <div class="form-actions">
+                <div class="pull-left">
+                    <label class="rememberme mt-checkbox mt-checkbox-outline">
+                        <input type="checkbox" name="remember" value="1" ng-click="changeRememberMe($event)" />
+                        <sxy-i18n i18n-key = "cn.cywz.login.remberMe" class = "login-rember-me"></sxy-i18n>
+                        <span></span>
+                    </label>
+                </div>
+                <!--<div class="pull-right forget-password-block">
+                    <a href="javascript:;" id="forget-password" class="forget-password">忘记密码</a>
+                </div>-->
+            </div>
+            <!--<div class="create-account">
+                <p>
+                    <a href="javascript:;" class="btn-primary btn" id="register-btn">Create an account</a>
+                </p>
+            </div>-->
+        </sxy-form>
+    </div>
+</div>
